@@ -12,7 +12,6 @@
             </div>
       </div>
       <span class="text-white font-lores text-[12rem] text-center justify-center tracking-[4rem] select-none w-screen">
-
-            {{ $max }}
+            {{ $count }}
       </span>
 </section>

@@ -26,8 +26,8 @@ class UsersController extends Controller{
       }
 
       function getData(){
-            $members = DB::select('select * from participants');
-            return view('prizegame',['members'=>$members]);
+                  $members = DB::select('select * from participants');
+                  return view('prizegame',['members'=>$members]);
             }
 
 

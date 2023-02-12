@@ -36,7 +36,7 @@
                   </span>
             </section>
             <section class="bg-[#6610f1]/60 h-60 ml-32 mr-32 align-middle pl-44 pr-44 p-14">
-                  <span class="text-white text-2xl font-calibril justify-center text-center align-middle select-none">
+                  <span class="text-white text-2xl text-clip overflow-hidden font-calibril justify-center text-center align-middle select-none">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                         veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -47,25 +47,10 @@
             </section>
       </div>
       <livewire:counter :max="count($members)" />
-      @livewireScripts
       <section class="h-[500px] bg-[#6610f1]/30 justify-between flex flex-col">
-            <div class="mb-auto flex flex-row gap-10 mx-auto pt-20">
-                  <div class="bg-white h-72 w-72 drop-shadow-lg rounded">
-
-                  </div>
-                  <div class="bg-white h-72 w-72 drop-shadow-lg rounded">
-
-                  </div>
-                  <div class="bg-white h-72 w-72 drop-shadow-lg rounded">
-
-                  </div>
-            </div>
-            <div class="w-full mx-auto text-center h-14">
-                  <button class="uppercase font-calibril w-80 p-2 border rounded-full border-gray-700">
-                        Nyertesek adatainak letöltése
-                  </button>
-            </div>
+            <livewire:winners />
       </section>
+      @livewireScripts
 </body>
 
 </html>
