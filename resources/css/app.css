@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "calibrib";
+    src: url("../fonts/CALIBRIB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibril";
+    font-weight: bold;
+    src: url("../fonts/CALIBRIL.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "lores";
+    src: url("../fonts/LoRes.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
